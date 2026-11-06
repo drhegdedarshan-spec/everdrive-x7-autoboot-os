@@ -4,7 +4,7 @@ A quiet autoboot modification of SMSOS v1.04 for the **Sega Game Gear EverDrive 
 
 ## Download and install
 
-Download **EverDrive-X7-Autoboot-OS.zip** from this repository's Releases page. The ZIP contains the correct filename and folder structure:
+Download [**EverDrive-X7-Autoboot-OS.zip**](https://github.com/drhegdedarshan-spec/everdrive-x7-autoboot-os/raw/refs/heads/main/downloads/EverDrive-X7-Autoboot-OS.zip). The ZIP contains the correct filename and folder structure:
 
 ```text
 EverDrive-X7-Autoboot-OS.zip
