@@ -1,6 +1,6 @@
 # EverDrive X7 Autoboot OS
 
-A quiet autoboot modification of SMSOS v1.04 for the **Sega Game Gear EverDrive X7**. It loads a Game Gear ROM directly from the SD card without opening the file browser or displaying the AB2 diagnostic messages.
+A quiet autoboot for the **Sega Game Gear EverDrive X7**. It loads a Game Gear ROM directly from the SD card without opening the file browser or displaying the AB2 diagnostic messages.
 
 ## Download and install
 
@@ -60,11 +60,11 @@ The original OS limit of **1,024 indexed root entries** remains. This modificati
 
 ## Recovery
 
-Restore the original `SMSSYS/SMSOS.BIN` from your backup or the original SMSOS v1.04 archive to return to the standard OS. A game ROM cannot replace `SMSOS.BIN`.
+Restore the original `SMSSYS/SMSOS.BIN'
 
 ## Rebuild the patch
 
-Python 3 is required; no third-party packages are needed. Starting from the original, unmodified SMSOS v1.04 binary:
+Python 3 is required; no third-party packages are needed.
 
 ```sh
 python3 tools/build_patch.py path/to/original/SMSOS.BIN SMSSYS/SMSOS.BIN
